@@ -1,0 +1,37 @@
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #0c0b0b ; /* Set default background color for the body */
+}
+
+.hero-section,
+.contact-section {
+  background: linear-gradient(90deg, rgb(242, 130, 181) 5%, rgb(255, 167, 145) 20%, rgb(204, 194, 248));
+  /* background: linear-gradient(90deg, rgb(254 93 90) 5%, rgb(254 93 90) 20%, #4b5563); */
+}
+/* .hero-section,
+.contact-section {
+  background: linear-gradient(90deg, rgb(85,181,90) 5%, rgb(124,206,71) 20%, rgb(204, 248, 191));
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient( 90deg,rgb(235, 36, 36) 5%, rgb(236, 67, 67) 20%, rgb(43, 39, 39));
+} */
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient( 90deg,rgb(12, 12, 12) 5%, rgb(12, 12, 12) 20%, rgb(12, 12, 12));
+} */
+/* styles.css */
+.custom-icon-color {
+  /* color: #FE5D5A; */
+  color: #ff937b
+  /* color :#FF5D34 Replace with your desired color value */
+}
+.placeholder-white::placeholder {
+  color: #535252;
+}
